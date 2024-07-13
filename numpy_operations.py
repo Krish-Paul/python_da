@@ -62,3 +62,5 @@ np.log(np2 )
 np.sqrt(np2)
 
 np.dot(arr1,arr2)
+
+b=np.where(a>b,0,b)  # alternative if else  syntax  where(condition,value if true,value if false)

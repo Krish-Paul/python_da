@@ -59,3 +59,29 @@ bool_index=df["age"]>=15
 df[bool_index]
 
 df[df["age"]>12]
+
+
+
+
+train = pd.read_csv("/kaggle/input/testrag/test.csv")
+
+type(train)
+train = pd.read_csv("/kaggle/input/testrag/test.csv")
+​
+type(train)
+
+train.head(10)
+ 
+train.tail(10)
+ 
+
+train.index=train.Name
+del train["Name"]
+train.index[0:10]
+ 
+
+train.head(5)
+ 
+train.describe()
+ 
+train.info()
